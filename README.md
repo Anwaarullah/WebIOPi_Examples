@@ -11,6 +11,8 @@ However, using info found from this link https://www.raspberrypi.org/forums/view
 This method from the above link worked for me:
 
 1.python/native/cpuinfo.c,change "BCM2708" to "BCM2709";
+
 2.python/native/gpio.c, change "#define BCM2708_PERI_BASE 0x20000000" to "#define BCM2708_PERI_BASE 0x3f000000";
+
 3.run setup.sh again.
 
