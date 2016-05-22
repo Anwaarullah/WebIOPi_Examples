@@ -6,6 +6,8 @@ The Example_2 folder also contains another set of html and python file that show
 
 Please make note that WebIOPi doesn't work out of the box for Pi 2 yet. 
 
+Patch for Pi 2/3: https://github.com/doublebind/raspi
+
 However, using info found from this link https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=98981  , WebIOPi can be hacked around to run on Pi 2:
 
 This method from the above link worked for me:
